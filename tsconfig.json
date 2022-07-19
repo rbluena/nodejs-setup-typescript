@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "lib": ["es2015"],
+    "esModuleInterop": true,
+
+    /** MODULES */
+    "module":"commonjs",
+    "moduleResolution": "node",
+    "rootDir": "./",
+    "baseUrl": "./",
+    "paths": {},
+
+    /** EMIT */
+    "outDir": "dist",
+    "sourceMap": false,
+    "removeComments": false,
+
+    /** TYPE CHECKING */
+    "strict": true,
+    "skipLibCheck": true
+  }
+}
